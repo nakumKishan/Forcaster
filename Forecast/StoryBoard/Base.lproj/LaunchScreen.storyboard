@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dark BG" translatesAutoresizingMaskIntoConstraints="NO" id="cnN-FN-rVz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt" translatesAutoresizingMaskIntoConstraints="NO" id="xex-mX-dwL">
+                                <rect key="frame" x="67" y="120" width="240" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="ejr-D0-Rmg"/>
+                                    <constraint firstAttribute="height" constant="145" id="lyG-Bi-6bb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FORCASTER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hh-HG-2wE">
+                                <rect key="frame" x="89" y="310" width="196" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="SGK-9s-b3O"/>
+                                    <constraint firstAttribute="width" constant="196" id="pau-Do-ZHo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kisanhub_logo" translatesAutoresizingMaskIntoConstraints="NO" id="RLD-pz-aND">
+                                <rect key="frame" x="162" y="597" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="DEk-jT-l3c"/>
+                                    <constraint firstAttribute="width" constant="50" id="Uio-dr-509"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2n-KC-W36">
+                                <rect key="frame" x="142" y="567" width="90" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="U2Y-rK-npa"/>
+                                    <constraint firstAttribute="width" constant="90" id="bM0-bH-nod"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cnN-FN-rVz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="8aC-8c-zMB"/>
+                            <constraint firstItem="xex-mX-dwL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ibx-WZ-Ro5"/>
+                            <constraint firstItem="RLD-pz-aND" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KEq-TO-Kve"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RLD-pz-aND" secondAttribute="bottom" constant="20" id="Vza-if-uOK"/>
+                            <constraint firstItem="a2n-KC-W36" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="a25-qu-i6B"/>
+                            <constraint firstItem="RLD-pz-aND" firstAttribute="top" secondItem="a2n-KC-W36" secondAttribute="bottom" constant="10" id="fEH-kR-Qmc"/>
+                            <constraint firstItem="cnN-FN-rVz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fbU-wQ-Bed"/>
+                            <constraint firstItem="4hh-HG-2wE" firstAttribute="top" secondItem="xex-mX-dwL" secondAttribute="bottom" constant="45" id="gGn-u7-GmV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cnN-FN-rVz" secondAttribute="bottom" id="gme-Rz-1VR"/>
+                            <constraint firstItem="4hh-HG-2wE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kI9-Eg-DNP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cnN-FN-rVz" secondAttribute="trailing" id="lTP-O5-paB"/>
+                            <constraint firstItem="xex-mX-dwL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="u0N-bl-ezf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dark BG" width="375" height="667"/>
+        <image name="bolt" width="128" height="128"/>
+        <image name="kisanhub_logo" width="150" height="214"/>
+    </resources>
+</document>
