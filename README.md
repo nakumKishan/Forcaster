@@ -3,7 +3,7 @@
 ![photography workshop](https://user-images.githubusercontent.com/8666236/42373543-d4673078-8132-11e8-9e32-827caa28bf3b.png)
 
 ### App Description
- Forcaster app is about to Use  URL and write code to programatically download the data for Max temp, Min temp, Mean temp, Sunshine, and Rainfall for UK, England, Wales, and Scotland regions.Also these data can be downloaded in CSV format.
+ Forecaster app is about to Use  URL and write code to programatically download the data for Max temp, Min temp, Mean temp, Sunshine, and Rainfall for UK, England, Wales, and Scotland regions.Also these data can be downloaded in CSV format.
 
 ## App Preview
 
