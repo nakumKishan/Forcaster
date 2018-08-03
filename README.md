@@ -1,4 +1,4 @@
-# iOS App (Kisanhub Task)
+# iOS App 
 
 ![photography workshop](https://user-images.githubusercontent.com/8666236/42373543-d4673078-8132-11e8-9e32-827caa28bf3b.png)
 
